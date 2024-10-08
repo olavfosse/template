@@ -1,0 +1,45 @@
+{:paths ["src" "resources"]
+ :deps {org.clojure/clojure {:mvn/version "1.12.0"}
+        
+        nrepl/nrepl {:mvn/version "1.2.0"}
+        cider/cider-nrepl {:mvn/version "0.49.0"}
+        lambdaisland/deep-diff2 {:mvn/version "2.11.216"}
+        taipei.404/html-to-hiccup {:mvn/version "0.1.8"}
+
+        missionary/missionary {:mvn/version "b.39"}
+
+        com.hyperfiddle/rcf {:mvn/version "20220926-202227"}
+
+        net.cgrand/xforms {:mvn/version "0.19.6"}
+        io.github.borkdude/deflet {:mvn/version "0.1.0"}
+        com.taoensso/encore {:mvn/version "3.117.0"}
+        io.github.olavfosse/context {:sha "415ef4bdc34496645fca8941ab53075c764dee7e"}
+
+        com.datomic/local {:mvn/version "1.0.285"}
+        duratom/duratom {:mvn/version "0.5.9"}
+        org.clojure/data.json {:mvn/version "2.5.0"}
+        
+        buddy/buddy-hashers {:mvn/version "2.0.167"}
+        buddy/buddy-auth {:mvn/version "3.0.323"}
+        
+        http-kit/http-kit {:mvn/version "2.8.0"}
+        ring/ring-defaults {:mvn/version "0.5.0"}
+        metosin/ring-http-response {:mvn/version "0.9.4"}
+        metosin/reitit-ring {:mvn/version "0.7.0"}
+        cjohansen/replicant {:git/url "https://github.com/cjohansen/replicant"
+                             :sha "1287e29ad3e96b2385fa986c655008a02a198147"}
+        
+        tick/tick {:mvn/version "0.7.5"}
+        com.widdindustries/time-literals {:mvn/version "0.1.10"}
+
+        net.clojars.wkok/openai-clojure {:mvn/version "0.17.0"}
+
+        com.taoensso/telemere {:mvn/version "1.0.0-beta22"}
+        ;; Redirect slf4j logs into Telemere
+        ;; DISABLED: was causing some exception
+        ;;com.taoensso/slf4j-telemere {:mvn/version "1.0.0-beta16"}
+        ;;org.slf4j/slf4j-api {:mvn/version "2.0.13"}
+        ;; Redirect tools.logging into Telemere
+        org.clojure/tools.logging {:mvn/version "1.3.0"}
+        
+        org.clojars.abhinav/snitch {:mvn/version "0.1.15"}}}

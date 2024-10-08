@@ -1,0 +1,2 @@
+{:transform [["src" "src"
+              {"main.tmpl" "{{top/file}}/{{main/file}}.clj"}]]}
